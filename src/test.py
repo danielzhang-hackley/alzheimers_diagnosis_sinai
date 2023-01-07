@@ -43,7 +43,7 @@ print(np.random.choice([1, 2, 3, 4, 5], 3, replace=False))
 q = [1, 2, 3]
 
 for i in q:
-    i += 1
+    pass  # i += 1
 
-print(q)
+print(q[:-1])
 
